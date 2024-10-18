@@ -1,0 +1,14 @@
+#Raimonds Tīģeris 18.10.2024
+#1uzd
+
+gadi = int(input("Ieraksti cik tev ir gadi."))
+
+vecums2 = int(input(""))
+
+if gadi < 13:
+    print("Tu esi bērns.")
+elif 13<= gadi <=19:
+    print("Tu esi tīnis.")
+else: 
+    print("Tu esi pieaugušais.")
+
